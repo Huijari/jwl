@@ -1,0 +1,14 @@
+{
+  "name": "jwl",
+  "version": "1.0.0",
+  "description": "Jira Work Logger",
+  "main": "index.js",
+  "repository": "git@github.com:Huijari/jwl.git",
+  "author": "github.com/Huijari",
+  "license": "MIT",
+  "dependencies": {
+    "inferno": "^1.2.2",
+    "inferno-hyperscript": "^1.2.2",
+    "most": "^1.2.1"
+  }
+}
