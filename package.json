@@ -2,13 +2,19 @@
   "name": "jwl",
   "version": "1.0.0",
   "description": "Jira Work Logger",
-  "main": "index.js",
+  "main": "src/app.js",
   "repository": "git@github.com:Huijari/jwl.git",
   "author": "github.com/Huijari",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
   "dependencies": {
     "inferno": "^1.2.2",
     "inferno-hyperscript": "^1.2.2",
     "most": "^1.2.1"
+  },
+  "devDependencies": {
+    "webpack": "^2.2.1"
   }
 }
