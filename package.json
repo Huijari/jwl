@@ -7,14 +7,17 @@
   "author": "github.com/Huijari",
   "license": "MIT",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "serve": "hs"
   },
   "dependencies": {
     "inferno": "^1.2.2",
     "inferno-hyperscript": "^1.2.2",
+    "moisture": "^1.0.0",
     "most": "^1.2.1"
   },
   "devDependencies": {
+    "http-server": "^0.9.0",
     "webpack": "^2.2.1"
   }
 }
